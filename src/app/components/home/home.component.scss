@@ -1,0 +1,84 @@
+.header {
+  @apply
+  tw-flex
+  tw-flex-row
+  tw-justify-between
+  tw-items-center
+  tw-rounded-4-px
+  tw-p-12-px
+  tw-m-24-px;
+  background: linear-gradient(146deg, #e1eeff 19.67%, #ffe4fb 127.56%);
+}
+
+.search-button {
+  @apply
+  tw-border 
+  tw-border-solid 
+  tw-border-dark-border
+  tw-rounded-4-px
+  tw-flex
+  tw-justify-center
+  tw-h-60-px
+  tw-w-200-px
+}
+
+.trending-subjects {
+  @apply
+  tw-bg-table-header-bg
+  tw-p-12-px
+  tw-rounded-4-px
+  tw-shadow-lg
+}
+.table-view {
+  @apply
+  tw-w-full
+  tw-overflow-hidden
+  tw-border-collapse
+  tw-p-12-px
+  tw-table-auto
+}
+
+.table-row {
+  @apply
+  tw-h-60-px
+  tw-border
+  tw-border-solid
+  tw-border-light-border
+  tw-bg-table-header-bg
+  tw-pl-12-px;
+
+  .header {
+    @apply
+    tw-text-start
+    tw-w-1/3
+    tw-border-r
+    tw-border-l-0
+    tw-border-b-0
+    tw-border-t-0
+    tw-border-solid
+    tw-border-light-border
+  }
+
+}
+
+.table-body {
+  @apply
+  tw-border
+  tw-border-solid
+  tw-border-light-border
+  tw-border-t-0;
+
+  .row-data {
+    @apply
+    tw-h-40-px
+    tw-border-b
+    tw-border-l-0
+    tw-border-r-0
+    tw-border-t-0
+    tw-border-solid
+    tw-border-light-border
+  }
+}
+.headerclass{
+text-align: start;
+}
